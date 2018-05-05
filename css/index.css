@@ -16,3 +16,10 @@ div > img {
 #name {
     color: white;
 }
+
+.contact > ul {
+    list-style-type: none;
+}
+.date {
+    font-style: italic;
+}
