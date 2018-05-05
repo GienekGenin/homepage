@@ -1,4 +1,4 @@
-body{
+body {
     background-color: gainsboro;
 }
 
@@ -24,17 +24,20 @@ div > img {
 .contact > ul {
     list-style-type: none;
 }
+
 .date {
     font-style: italic;
 }
-.addons{
+
+.addons {
     /*margin-top: 0px;*/
 }
-.intro, .addons{
+
+.intro, .addons {
     background-color: #E8E8E8;
 }
 
-a{
+a {
     color: blue;
     font-style: inherit;
 }
@@ -45,22 +48,25 @@ a:hover {
 }
 
 @media screen and (max-width: 2170px) {
-    .addons{
+    .addons {
         margin-top: -230px;
     }
 }
+
 @media screen and (max-width: 1200px) {
-    .addons{
+    .addons {
         margin-top: -330px;
     }
 }
+
 @media screen and (max-width: 991px) {
-    .addons{
+    .addons {
         margin-top: -280px;
     }
 }
+
 @media screen and (max-width: 767px) {
-    .addons{
+    .addons {
         margin-top: 0;
     }
 }
