@@ -1,15 +1,18 @@
 div > img {
-    width: 15%;
-    height: 15%;
+    width: 230px;
+    height: 250px;
+    min-width: 230px;
+    min-height: 250px;
     border-radius: 50%;
 }
 
 .first-look {
+    margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #C5D2D4;
 }
 
-.name {
+#name {
     color: white;
 }
