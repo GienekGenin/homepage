@@ -17,6 +17,9 @@ div > img {
     color: white;
 }
 
-.date{
+.contact > ul {
+    list-style-type: none;
+}
+.date {
     font-style: italic;
 }
