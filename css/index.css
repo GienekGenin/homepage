@@ -20,3 +20,6 @@ div > img {
 .contact > ul {
     list-style-type: none;
 }
+.date {
+    font-style: italic;
+}
