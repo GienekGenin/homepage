@@ -31,3 +31,13 @@ div > img {
 .intro, .addons{
     background-color: #E8E8E8;
 }
+
+a{
+    color: blue;
+    font-style: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
