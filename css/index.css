@@ -1,0 +1,15 @@
+div > img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+.first-look {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #C5D2D4;
+}
+
+.name {
+    color: white;
+}
