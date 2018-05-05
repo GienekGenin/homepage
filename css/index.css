@@ -1,3 +1,7 @@
+body{
+    background-color: gainsboro;
+}
+
 div > img {
     width: 230px;
     height: 250px;
@@ -22,4 +26,8 @@ div > img {
 }
 .date {
     font-style: italic;
+}
+
+.intro, .addons{
+    background-color: #E8E8E8;
 }
