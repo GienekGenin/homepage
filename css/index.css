@@ -16,3 +16,7 @@ div > img {
 #name {
     color: white;
 }
+
+.date{
+    font-style: italic;
+}
