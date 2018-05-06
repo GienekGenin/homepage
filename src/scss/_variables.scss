@@ -1,0 +1,27 @@
+$textColor: #d7d7d7;
+
+@mixin addonsMargins() {
+  @media screen and (max-width: 2170px) {
+    .addons {
+      margin-top: -230px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .addons {
+      margin-top: -330px;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .addons {
+      margin-top: -280px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .addons {
+      margin-top: 0;
+    }
+  }
+}

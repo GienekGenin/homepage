@@ -1,0 +1,49 @@
+@import './_variables.scss';
+
+@include addonsMargins;
+
+div > img {
+  width: 230px;
+  height: 250px;
+  min-width: 230px;
+  min-height: 250px;
+  border-radius: 50%;
+}
+
+.first-look {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#name {
+  color: white;
+}
+
+.contact > ul {
+  list-style-type: none;
+}
+
+.date {
+  font-style: italic;
+}
+
+.timeline, .contact, .intro, .addons {
+  background-color: rgba(0, 0, 0, 0.6);
+  //visibility: hidden;
+  h3{
+    color: white;
+  }
+  h4, li, span {
+    color: $textColor;
+  }
+}
+a {
+  font-style: inherit;
+  color: #01FF70;
+  &:hover {
+    text-decoration: none;
+    color: #F012BE;
+  }
+}
+
