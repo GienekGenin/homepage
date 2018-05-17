@@ -1,23 +1,27 @@
 @import './_variables.scss';
 
-@include addonsMargins;
-
 div > img {
-  width: 230px;
-  height: 250px;
-  min-width: 230px;
-  min-height: 250px;
+  width: 210px;
+  height: 230px;
+  min-width: 210px;
+  min-height: 230px;
   border-radius: 50%;
 }
 
 .first-look {
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-color: cadetblue;
 }
 
-#name {
-  color: white;
+.edu{
+  background-color: #d7d7d7;
+}
+
+.projects{
+  background-color: cadetblue;
+}
+
+.contact{
+  background-color: #d7d7d7;
 }
 
 .contact > ul {
@@ -27,23 +31,3 @@ div > img {
 .date {
   font-style: italic;
 }
-
-.timeline, .contact, .intro, .addons {
-  background-color: rgba(0, 0, 0, 0.6);
-  //visibility: hidden;
-  h3{
-    color: white;
-  }
-  h4, li, span {
-    color: $textColor;
-  }
-}
-a {
-  font-style: inherit;
-  color: #01FF70;
-  &:hover {
-    text-decoration: none;
-    color: #F012BE;
-  }
-}
-
